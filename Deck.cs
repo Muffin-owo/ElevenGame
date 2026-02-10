@@ -19,7 +19,7 @@ public class Deck
     public void shuffle()
     {
         Random rand = new Random();
-        for (int i=0; i<cards.Count; i++)
+        for (int i=0; i< cards.Count; i++)
         {
             int j = rand.Next(i, cards.Count);
             Card temp = cards[i];

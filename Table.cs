@@ -10,7 +10,7 @@ public class Table
         }
     }
     
-    public void displayTable()
+    public void visibleCards()
     {
         Console.WriteLine("Table:");
         for (int i = 0; i < cardsOnTable.Count; i++)

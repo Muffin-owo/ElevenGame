@@ -16,7 +16,7 @@ public class GameController
     {
         while (gameState == "playing")
         {
-            table.displayTable();
+            table.visibleCards();
 
             Console.WriteLine($"Deck left: {deck.size()}");
             Console.WriteLine("Enter 2 indexes (sum 11) or 3 indexes (JQK/11,12,13). Type q to quit.");
