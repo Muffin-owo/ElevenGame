@@ -13,6 +13,7 @@ The game should detect win or loss
 
 
 How to Play
+<br>
 Run the program.
 The table will display cards labeled with indexes 0–8.
 Enter:
@@ -21,3 +22,6 @@ Two indexes for a pair summing to 11
 Three indexes for a JQK set
 2 4 8
 Type q or Q to quit the game.
+
+<br>
+Progress already finish card , deck , gamecontroller , table class
